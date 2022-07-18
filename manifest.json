@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "FogPin",
+    "version": "0.1.0",
+    "description": "Pin comments to the top of a case in Fogbugz",
+    "content_scripts": [
+        {
+            "css": [
+                "styles.css"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "https://mutualmed.manuscript.com/*"
+            ]
+        }
+    ]
+}
